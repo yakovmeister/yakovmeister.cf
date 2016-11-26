@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Oh! Not this Page</title>
-	<meta name="description" content="text">
+	<meta name="Description" content="Yakovmeister's Homepage... Don't starve fan, and don't starve together Vault 547 and 548 Server Overseer.">
+	<meta name="Keywords" content="Don't Starve Together, DST, yakovmeister, Jacob Baring, electro7bug">
 
 	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 	<link  href="{{ asset('/css/theme.css') }}" rel="stylesheet">
@@ -27,6 +28,8 @@
 			</div>
 		</div>
 		<div class="row">
+			<h2 class="fancy-font-1" align="center" style="width: 60%; margin: 0 auto;"> Hi! I'm Jacob, Don't Starve fan, a nub Dota2 gamer, and a mediocre coder. I have so much to say but I'll save it for later.</h2>
+			<br />
 			<h3 class="fancy-font-1" align="center" style="width: 60%; margin: 0 auto;">This is just a temporary homepage while the other one is still under development, though the next pages you'll see in the future may be as simple as this or maybe simpler. . . Or maybe this is the last page you'll see. Who knows and who cares?</h3>
 			<br />
 			<h4 class="fancy-font-1" align="center" style="width:40%; margin: 0 auto;">I'm broke. . . I'd gladly accept your donations <a href="https://paypal.me/yakovmeister/">here</a>.</h4>
