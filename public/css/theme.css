@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300|Pinyon+Script|Schoolbell);
+
+html,body {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #fff;
+}
+
+.fancy-font-1 {
+	font-family: 'Schoolbell', cursive;
+}
+
+.fancy-font-2 {
+	font-family: 'Pinyon Script', cursive;
+}
+
+.fancy-font-3 {
+	font-family: 'Josefin Sans', sans-serif;
+}
