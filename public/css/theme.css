@@ -9,11 +9,14 @@ html,body {
 .fancy-font-1 {
 	font-family: 'Schoolbell', cursive;
 }
-
 .fancy-font-2 {
 	font-family: 'Pinyon Script', cursive;
 }
 
 .fancy-font-3 {
 	font-family: 'Josefin Sans', sans-serif;
+}
+
+p.fancy-font-3 {
+	margin-bottom: 0;
 }
