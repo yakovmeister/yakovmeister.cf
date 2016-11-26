@@ -35,6 +35,10 @@
 			<h4 class="fancy-font-1" align="center" style="width:40%; margin: 0 auto;">I'm broke. . . I'd gladly accept your donations <a href="https://paypal.me/yakovmeister/">here</a>.</h4>
 			<br />
 			<h5 class="fancy-font-1" align="center" style="width:40%; margin: 0 auto;">Lastly, check the mediocrity of my works <a href="https://github.com/yakovmeister">here</a>.</h5>
+			<br />
+			<h6 class="fancy-font-1" align="center" style="width:40%; margin: 0 auto;">
+				{{ \App\Jackbox\Hashtags::getAHashtag() }}
+			</h6>
 		</div>
 	</div>
 	<!-- Javascript -->
