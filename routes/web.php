@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('temp.index');
 });
 
-Route::get('/google14d3a8b9186efa46.html', function() {
+Route::get('google14d3a8b9186efa46.html', function() {
 	return view('temp.google');
 }); 
