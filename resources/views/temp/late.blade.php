@@ -26,6 +26,14 @@
 					<span class="fa fa-paypal"></span>
 				</a>
 			</div>
+			@if(session('flash'))
+            <div class="alert alert-{{ session('flash')['type'] }} alert-dismissible" role="alert" style="width: 60%; margin: auto;">
+            	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            	<span aria-hidden="true">&times;</span></button>
+            	{{ session('flash')['message'] }}
+            </div>
+            <br />
+          @endif
 		</div>
 		@yield('content')
 		<footer class="footer">
