@@ -4,7 +4,9 @@ namespace App\Jackbox;
 
 class Hashtags
 {
-	protected static $hashtags = [
+	protected static $instance;
+
+	protected $hashtags = [
 		"yakovmeister",
 		"pushMid",
 		"donationForPoorKid",
@@ -25,11 +27,40 @@ class Hashtags
 		"loveNeedNot"
 	];
 
-	public static function getAHashtag()
-	{
-		$iHashtagSize = count(static::$hashtags);
-		$iHashtagPos = rand(0, ($iHashtagSize - 1));
+	protected $headerMessages = [
+		"Cuz smplct iz owezum!",
+		"Unicorn! nn dat unicorn?",
+		"", //intentionally left blank
+		"Ain't nobody got time for fancy",
+		"stupid since 1996",
+		"hate generating machine",
+		"fluently sarcastic",
+		"?",
+		"no can do",
+		"for god's sake just give me a goddamn break",
+		"404 this is not a page"
+	];
 
-		return "#".static::$hashtags[$iHashtagPos];
+	public function getAHashtag()
+	{
+		$iHashtagPos = rand(0, ((count($this->hashtags)) - 1));
+
+		return "#{$this->hashtags[$iHashtagPos]}";
+	}
+
+	public function getAHeaderMessage()
+	{
+		$iHeaderMessagePos = rand(0, ((count($this->headerMessages)) - 1));
+
+		return $this->headerMessages[$iHeaderMessagePos];
+	}
+
+	/**
+	 * [singleton is evil, return Hashtag instance on static call]
+	 * @return \App\Jackbox\Hashtags
+	 */
+	public static function i()
+	{
+		return isset(static::$instance) ? static::$instance : new Hashtags;
 	}
 }

@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('temp.index');
-});
-
-Route::get('google14d3a8b9186efa46.html', function() {
-	return view('temp.google');
-}); 
+Route::get('/', 'TempController@index');
+Route::get('/contact-me', 'TempController@contact');
+Route::get('/google14d3a8b9186efa46.html', 'TempController@google'); 

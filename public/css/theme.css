@@ -9,6 +9,11 @@ html,body {
 .fancy-font-1 {
 	font-family: 'Schoolbell', cursive;
 }
+.fancy-font-1 > a,
+.fancy-font-1 > a:hover {
+	text-decoration: none;
+	color: #636b6f;
+}
 .fancy-font-2 {
 	font-family: 'Pinyon Script', cursive;
 }
@@ -19,4 +24,12 @@ html,body {
 
 p.fancy-font-3 {
 	margin-bottom: 0;
+}
+.black {
+	color: #333;
+}
+.footer {
+	border-top: 1px solid #ddd;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
