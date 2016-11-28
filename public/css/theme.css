@@ -12,6 +12,8 @@ html,body {
 .fancy-font-1 > a,
 .fancy-font-1 > a:hover {
 	text-decoration: none;
+}
+.default-text-color {	
 	color: #636b6f;
 }
 .fancy-font-2 {

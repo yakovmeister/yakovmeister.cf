@@ -14,7 +14,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="page-header" align="center">	
-				<h1 class="fancy-font-1"><a href="{{ url('/') }}">{ Yakovmeister }</a></h1>
+				<h1 class="fancy-font-1"><a href="{{ url('/') }}" class="default-text-color">{ Yakovmeister }</a></h1>
 				<p class="fancy-font-3">{{ \App\Jackbox\Hashtags::i()->getAHeaderMessage() }}</p>
 				<p class="fancy-font-3">Also Yes, Fancy I cannot.</p>
 				<a href="https://www.facebook.com/yakovmeister" style="color:#3b5998;">
