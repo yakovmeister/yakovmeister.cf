@@ -35,5 +35,6 @@
 @stop
 
 @push('javascript')
-
+<script type="text/javascript">
+</script>
 @endpush

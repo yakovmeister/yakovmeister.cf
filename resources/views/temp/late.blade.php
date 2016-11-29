@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- This is an example of pathethically designed website, created by lazy-ass not-so-developer... Feel free to discriminate or insult. I don't mind, in fact an insult and discrimination might help me improve. So yea! -->
 <html>
 <head>
 	<title>{{ $title ?? "Congratulations, you've killed link" }}</title>

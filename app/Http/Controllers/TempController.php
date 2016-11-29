@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Validation\Factory as Validator;
 use Yakovmeister\Weebo\Component\Net;
 use Yakovmeister\Weebo\Component\Scraper;
+use Yakovmeister\Weebo\Manager\Anime\RAWR\RAWRAnimeManager;
 use App\Suggest;
 
 class TempController extends Controller
@@ -97,8 +98,8 @@ class TempController extends Controller
 		return response(view('temp.weebo', $this->filler));
 	}
 
-	public function weeboAct(Net $net, Scraper $scraper)
+	public function weeboAct(Request $request, Net $net, Scraper $scraper, RAWRAnimeManager $weebo)
 	{
-
+		dd($weebo->searchAnime("ansatsu"));
 	}
 }
