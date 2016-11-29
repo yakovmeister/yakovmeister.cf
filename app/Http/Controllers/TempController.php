@@ -4,9 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Validation\Factory as Validator;
-use Yakovmeister\Weebo\Component\Net;
-use Yakovmeister\Weebo\Component\Scraper;
-use Yakovmeister\Weebo\Manager\Anime\RAWR\RAWRAnimeManager;
 use App\Suggest;
 
 class TempController extends Controller
@@ -89,17 +86,5 @@ class TempController extends Controller
 	public function cantSaveHyrule()
 	{
 		return response(view('errors.404', $this->filler));
-	}
-
-	public function weebo()
-	{
-		$this->filler["title"] = "ShitsujiUI - Yakovmeister";
-
-		return response(view('temp.weebo', $this->filler));
-	}
-
-	public function weeboAct(Request $request, Net $net, Scraper $scraper, RAWRAnimeManager $weebo)
-	{
-		dd($weebo->searchAnime("ansatsu"));
 	}
 }
