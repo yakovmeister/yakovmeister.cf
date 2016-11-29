@@ -16,8 +16,6 @@ Route::get('/contact-me', 'TempController@contact');
 Route::get('/suggest', 'TempController@suggest');
 Route::get('/not-found', 'TempController@cantSaveHyrule');
 Route::get('/google14d3a8b9186efa46.html', 'TempController@google'); 
-Route::get('/weebo', 'TempController@weebo');
-Route::get('/weebo-search', 'TempController@weeboAct');
 /** POST requests **/
 Route::post('/suggest', 'TempController@postSuggest');
 
