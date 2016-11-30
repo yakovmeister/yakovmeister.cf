@@ -23,3 +23,10 @@ Route::group(['prefix' => 'suggestions'], function() {
 	Route::get('/view', 'TempController@viewSuggestions');
 	Route::get('/open/{id}', 'TempController@openSuggestion');
 });
+
+Route::group(['prefix' => 'dst'], function() {
+	Route::get('/', 'TempController@dstIndex');
+	Route::get('/vault-547', 'TempController@dstSingapore');
+	Route::get('/vault-548', 'TempController@dstTokyo');
+	Route::get('/vault-000', 'TempController@dstSoon');
+});

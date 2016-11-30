@@ -87,4 +87,24 @@ class TempController extends Controller
 	{
 		return response(view('errors.404', $this->filler));
 	}
+
+	public function dstIndex()
+	{
+
+	}
+
+	public function dstSingapore()
+	{
+
+	}
+
+	public function dstTokyo()
+	{
+
+	}
+
+	public function dstSoon()
+	{
+		
+	}
 }
