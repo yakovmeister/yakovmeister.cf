@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Validation\Factory as Validator;
+use Brimmhold\Scrape;
 use App\Suggest;
 
 class TempController extends Controller
@@ -88,23 +89,10 @@ class TempController extends Controller
 		return response(view('errors.404', $this->filler));
 	}
 
-	public function dstIndex()
+	public function dstIndex(Scrape $scrape)
 	{
+		$this->filler["title"] = "Let's Eat Together, Servers Status - Yakovmeister";
 
-	}
-
-	public function dstSingapore()
-	{
-
-	}
-
-	public function dstTokyo()
-	{
-
-	}
-
-	public function dstSoon()
-	{
-		
+		return response(view('temp.dst-index', $this->filler));
 	}
 }

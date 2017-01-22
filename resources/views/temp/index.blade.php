@@ -8,7 +8,7 @@
 			<br />
 			<p class="fancy-font-1" align="center" style="width: 75%; margin: 0 auto;">Although mediocre, I find myself creating some absolutely useless stupid apps just to fill in my free time. Behold <s><a href="https://github.com/yakovmeister/shitsuji">Shitsuji</a></s> (RAWRAnime just died, I'm looking for alternate source) a Command Line Interface Based Anime Downloader, made with PHP and hate <span class="black">* manifest love, I cannot *</span> </p>
 			<br />
-			<p class="fancy-font-1" align="center" style="width: 60%; margin: 0 auto;">If it's not stupid enough, I've also made some mthrfckng sql connection wrapper named <a href="#">Konek</a>, which of course only supports MySQL and SQLite at this point. Also only supports basic sql features which is perfect for newbs. <span class="black">* insert sarcastic cackle *</span> and oh! it's made with PHP and hate too.</p>
+			<p class="fancy-font-1" align="center" style="width: 60%; margin: 0 auto;">If it's not stupid enough, I've also made some mthrfckng sql connection wrapper named <a href="https://github.com/yakovmeister/konek">Konek</a>, which of course only supports MySQL and SQLite at this point. Also only supports basic sql features which is perfect for newbs. <span class="black">* insert sarcastic cackle *</span> and oh! it's made with PHP and hate too.</p>
 			<br />
 			<h3 class="fancy-font-1" align="center" style="width:55%; margin: 0 auto;">No graphic and artsy, too lazy to make it fancy <span class="black">* OMG!!! poetic rhyme *</span> Anyway, who cares? No one will visit and read this <span class="black">* smpl yet owezum *</span> page for sure. No one cares too. So. . .</h3>
 			<br />
